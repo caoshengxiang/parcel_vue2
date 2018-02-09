@@ -1,0 +1,22 @@
+{
+  "name": "parcel_vue2",
+  "version": "1.0.0",
+  "description": "parcel test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "allen",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-preset-env": "^1.6.1",
+    "postcss-modules": "^1.1.0"
+  },
+  "devDependencies": {
+    "less": "^2.7.3",
+    "parcel-bundler": "^1.5.1"
+  }
+}

@@ -5,18 +5,23 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "allen",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^7.2.5",
-    "babel-preset-env": "^1.6.1",
-    "postcss-modules": "^1.1.0"
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
-    "less": "^2.7.3",
-    "parcel-bundler": "^1.5.1"
+    "autoprefixer": "^7.2.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.5.1",
+    "parcel-plugin-vue": "^1.5.0",
+    "postcss-modules": "^1.1.0"
   }
 }
